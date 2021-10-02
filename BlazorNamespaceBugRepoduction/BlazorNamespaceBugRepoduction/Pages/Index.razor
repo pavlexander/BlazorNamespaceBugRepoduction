@@ -1,0 +1,30 @@
+﻿@page "/"
+
+@using Shared.Responses; @*error here*@
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+<SurveyPrompt Title="How is Blazor working for you?" />
+
+@{
+    var sth1 = new Shared.Responses.MyTestClass(); // error here
+    var sth2 = new MyTestClass(); // error here, but no error in OnInitializedAsync ??
+}
+
+@if (MyProperty != null)
+{
+    if (MyProperty.MyTestEnumValue == MyTestEnum.One)  // error here
+    {
+        <p>One</p>
+    }
+    else if (MyProperty.MyTestEnumValue == Shared.Responses.MyTestEnum.Two)  // error here
+    {
+        <p>Two</p>
+    }
+    else
+    {
+        <p>Sopmething else</p>
+    }
+}
