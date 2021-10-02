@@ -37,7 +37,13 @@ Cannot explicitly init a class:
 
 Proof that class exists in namespace:
 
-![3](docoImg/3.png)
+`Shared.Responses.MyTestClass`
+
+![5](docoImg/5.png)
+
+`Shared.Responses.MyTestEnum`
+
+![6](docoImg/6.png)
 
 # Specs
 
