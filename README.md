@@ -4,6 +4,23 @@ An example of compilation problems in blazor.
 
 ![1](docoImg/1.png)
 
+Date reported: 
+- 02.10.2021 15:00 CET
+
+Issue tracking: 
+- https://github.com/dotnet/aspnetcore/issues/37218
+
+## Resolution
+
+- [ ] bug
+- [ ] feature
+- [ ] other
+
+Comment:
+- TBD
+
+# Issues
+
 ## Issue 1, 2, 3:
 
 1. cannot reference namespace in razor page
