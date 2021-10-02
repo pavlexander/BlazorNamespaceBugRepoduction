@@ -1,4 +1,4 @@
-# BlazorNamespaceBugRepoduction
+# Blazor WASM: enum comparison broken and namespace is not visible
 
 An example of compilation problems in blazor.
 
