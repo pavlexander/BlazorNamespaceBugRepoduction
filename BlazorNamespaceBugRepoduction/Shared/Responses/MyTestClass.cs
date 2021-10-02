@@ -8,7 +8,7 @@ namespace Shared.Responses
 {
     public class MyTestClass
     {
-        public string MyProperty { get; set; }
-        public MyTestClass MyTestEnumValue { get; set; }
+        public string MyProperty2 { get; set; }
+        public MyTestEnum MyTestEnumValue { get; set; }
     }
 }
