@@ -1,0 +1,26 @@
+﻿@page "/test2"
+
+@using FreshWithoutSWordLibrary.SomeFolder;
+
+<h1>Test 3 - namespace in other class library project but without keyword "shared" and "responsees"</h1>
+
+@{
+    var sth1 = new FreshWithoutSWordLibrary.SomeFolder.MyTestClass3();
+    var sth2 = new MyTestClass3();
+}
+
+@if (MyProperty != null)
+{
+    if (MyProperty.MyTestEnumValue == MyTestEnum3.One)
+    {
+        <p>One</p>
+    }
+    else if (MyProperty.MyTestEnumValue == FreshWithoutSWordLibrary.SomeFolder.MyTestEnum3.Two)
+    {
+        <p>Two</p>
+    }
+    else
+    {
+        <p>Sopmething else</p>
+    }
+}

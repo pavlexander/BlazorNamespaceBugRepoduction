@@ -10,6 +10,22 @@ Date reported:
 Issue tracking: 
 - https://github.com/dotnet/aspnetcore/issues/37218
 
+**Upadate 04.10.2021**
+
+Per request from MS added 2 new use-cases:
+
+1. namespace is in the same WASM project - no issues
+
+Namespace: `BlazorNamespaceBugRepoduction.TestNs`
+
+Page: `Test2`
+
+2. namespace is in new project class library (.Net 5) but there is no "Shared" name in it's name and folder structure is also different - no issues
+
+Namespace: `FreshWithoutSWordLibrary.SomeFolder`
+
+Page: `Test3`
+
 ## Resolution
 
 - [ ] bug

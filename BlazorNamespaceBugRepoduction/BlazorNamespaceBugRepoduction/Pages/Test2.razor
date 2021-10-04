@@ -1,0 +1,26 @@
+﻿@page "/test2"
+
+@using BlazorNamespaceBugRepoduction.TestNs;
+
+<h1>Test 2 - namespace in the same project as WASM. Success</h1>
+
+@{
+    var sth1 = new BlazorNamespaceBugRepoduction.TestNs.MyTestClass2();
+    var sth2 = new MyTestClass2();
+}
+
+@if (MyProperty != null)
+{
+    if (MyProperty.MyTestEnumValue == MyTestEnum2.One)
+    {
+        <p>One</p>
+    }
+    else if (MyProperty.MyTestEnumValue == BlazorNamespaceBugRepoduction.TestNs.MyTestEnum2.Two)
+    {
+        <p>Two</p>
+    }
+    else
+    {
+        <p>Sopmething else</p>
+    }
+}
