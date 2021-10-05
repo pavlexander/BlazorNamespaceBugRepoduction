@@ -29,11 +29,11 @@ Page: `Test3`
 ## Resolution
 
 - [ ] bug
-- [ ] feature
-- [ ] other
+- [x] feature
+- [x] other
 
 Comment:
-- TBD
+- There is already a folder called "Shared" in client project, hence the namespace is already reserved for other stuff.. It should be avoided to have conflicting namespaces in several places of the application. (see comments in original ticket description)
 
 # Issues
 
@@ -210,24 +210,24 @@ NVIDIA CUDA 11.0 Wizards   11.0
 Wizards to create new NVIDIA CUDA projects and source files.
 
 NVIDIA Nsight Visual Studio Edition   2020.1.2.20203
-NVIDIA Nsight Visual Studio Edition provides tools for GPGPU and graphics development.  Copyright © NVIDIA 2010 - 2020.
-•Direct3D® and DirectX® are registered trademarks of Microsoft Corporation in the United States and/or other countries.
-•Microsoft Detours is used under the Professional license (http://research.microsoft.com/en-us/projects/detours/).
-•Gardens Point Parser Generator Copyright 2005 Queensland University of Technology (QUT). All rights reserved.
-•Icons from Axialis Software used under the licensing terms found here: www.axialis.com
-•NLog Copyright © 2004-2006 Jaroslaw Kowalski (jaak@jkowalski.net)
-•zlib and libpng used under the zlib/libpnc license (http://opensource.org/licenses/Zlib) 
-•Breakpad Copyright ©2006, Google Inc. All rights reserved.
-•The OpenGL Extension Wrangler Library
-Copyright ©2008-2016, Nigel Stewart (nigels@users.sourceforge.net), Copyright ©2002-2008, Milan Ikits (milan.ikits@ieee.org), Copyright ©2002-2008, Marcelo E. Magallon (mmagallo@debian.org), Copyright ©2002, Lev Povalahev. 
+NVIDIA Nsight Visual Studio Edition provides tools for GPGPU and graphics development.  Copyright Â© NVIDIA 2010 - 2020.
+â€¢Direct3DÂ® and DirectXÂ® are registered trademarks of Microsoft Corporation in the United States and/or other countries.
+â€¢Microsoft Detours is used under the Professional license (http://research.microsoft.com/en-us/projects/detours/).
+â€¢Gardens Point Parser Generator Copyright 2005 Queensland University of Technology (QUT). All rights reserved.
+â€¢Icons from Axialis Software used under the licensing terms found here: www.axialis.com
+â€¢NLog Copyright Â© 2004-2006 Jaroslaw Kowalski (jaak@jkowalski.net)
+â€¢zlib and libpng used under the zlib/libpnc license (http://opensource.org/licenses/Zlib) 
+â€¢Breakpad Copyright Â©2006, Google Inc. All rights reserved.
+â€¢The OpenGL Extension Wrangler Library
+Copyright Â©2008-2016, Nigel Stewart (nigels@users.sourceforge.net), Copyright Â©2002-2008, Milan Ikits (milan.ikits@ieee.org), Copyright Â©2002-2008, Marcelo E. Magallon (mmagallo@debian.org), Copyright Â©2002, Lev Povalahev. 
 All rights reserved. 
-•LIBSSH2 Copyright ©2004-2007 Sara Golemon (sarag@libssh2.org), Copyright ©2005,2006 Mikhail Gusarov (dottedmag@dottedmag.net),Copyright ©2006-2007 The Written Word, Inc.,Copyright ©2007 Eli Fant (elifantu@mail.ru),Copyright ©2009-2014 Daniel Stenberg., Copyright ©2008, 2009 Simon Josefsson.
+â€¢LIBSSH2 Copyright Â©2004-2007 Sara Golemon (sarag@libssh2.org), Copyright Â©2005,2006 Mikhail Gusarov (dottedmag@dottedmag.net),Copyright Â©2006-2007 The Written Word, Inc.,Copyright Â©2007 Eli Fant (elifantu@mail.ru),Copyright Â©2009-2014 Daniel Stenberg., Copyright Â©2008, 2009 Simon Josefsson.
 All rights reserved. 
-•Protobuf Copyright ©2014, Google Inc. All rights reserved.
-•xxHASH Library Copyright ©2012-2014, Yann Collet. All rights reserved. 
-•FMT Copyright ©2012 - 2016, Victor Zverovich 
-•Font Awesome Copyright 2018 Fonticons, Inc. 
-•ELF Definitions Copyright (c) 2010 Joseph Koshy, All rights reserved.
+â€¢ProtobufÂ Copyright Â©2014, Google Inc. All rights reserved.
+â€¢xxHASH LibraryÂ Copyright Â©2012-2014, Yann Collet. All rights reserved. 
+â€¢FMTÂ Copyright Â©2012 - 2016, Victor Zverovich 
+â€¢Font Awesome Copyright 2018 Fonticons, Inc. 
+â€¢ELF Definitions Copyright (c) 2010 Joseph Koshy, All rights reserved.
 
 Warning: This computer program is protected by copyright law and international treaties. Unauthorized reproduction or distribution of this program, or any portion of it, may result in severe civil and criminal penalties, and will be prosecuted to the maximum extent possible under the law.
 
